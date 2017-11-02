@@ -61,6 +61,7 @@ height: 163px;
 .part-time {
     background-color: orange;
     padding: 30px;
+
 }
 
 .happy-hour {
@@ -83,5 +84,8 @@ height: 163px;
 .h4 {
 
   float: left;
-  
+
 }
+.fastfood{
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  }
