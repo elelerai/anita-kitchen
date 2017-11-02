@@ -18,9 +18,7 @@ header[role="banner"] #logo-main {
   padding-left: 30px;
   padding-right: 30px;
 }
-.navbar  {
-  background-color: green ;
-}
+
 .main-header {
   background-image: url("../ip2/assets/backgrounds/landing.jpg");
 }
@@ -31,4 +29,53 @@ h3{
 .bold-text {
     font-weight: 900;
     color: white;
+}
+
+.lunch{
+  background-image: url("../ip2/assets/foodtop/lunch.jpg");
+  background-size: cover;
+height: 163px;
+}
+.lunch-header h3 {
+    text-align: center;
+    position: relative;
+}
+.breakfast{
+  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+  background-size: cover;
+height: 163px;
+}
+.breakfast-header h3 {
+    text-align: center;
+    position: relative;
+}
+.dinner{
+  background-image: url("../ip2/assets/foodtop/dinner.jpg");
+  background-size: cover;
+height: 163px;
+}
+.dinner-header h3 {
+    text-align: center;
+    position: relative;
+}
+.part-time {
+    background-color: orange;
+    padding: 30px;
+}
+
+.happy-hour {
+    background-color: #e7dada;
+    padding: 30px;
+}
+
+
+.container-fluid {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
