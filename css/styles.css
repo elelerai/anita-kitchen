@@ -14,10 +14,7 @@ header[role="banner"] #logo-main {
   display: inline-block;
   float: none;
 }
-#navbar-primary.navbar-default .navbar-nav > li > a {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 
 .main-header {
   background-image: url("../ip2/assets/backgrounds/landing.jpg");
@@ -60,32 +57,29 @@ height: 163px;
 }
 .part-time {
     background-color: orange;
-    padding: 30px;
-
+    padding: 1.8em;
+    color: white;
+    font-weight: bold;
 }
+
 
 .happy-hour {
     background-color: #e7dada;
-    padding: 30px;
+    padding: 1.8em;
+    font-weight: bold;
 }
 
 
-.container-fluid {
-  margin-right: 0;
-  margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.h4 {
-
-  float: left;
-
-}
 .fastfood{
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
   }
+  .col{
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+.holder {
+  position: relative;
+  top: -8px;
+}
