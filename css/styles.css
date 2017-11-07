@@ -83,3 +83,26 @@ height: 163px;
   position: relative;
   top: -8px;
 }
+.customers {
+  border: 50px;
+  padding:50px;
+  background-color: white;
+}
+
+.v-divider{
+ margin-left:5px;
+ margin-right:5px;
+ width:1px;
+ height:100%;
+ border-left:1px solid gray;
+}
+.subscription {
+  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+  text-align: center;
+  color: white;
+  }
+
+  .footer {
+    background-color: orange;
+    align-items: center;
+  }
